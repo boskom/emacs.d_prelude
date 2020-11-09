@@ -1,10 +1,10 @@
 (require 'god-mode)
 
 ;; toggle god-mode
-;;(global-set-key (kbd "<f1>") #'god-local-mode)
-;;(global-set-key (kbd "C-<f1>") #'god-local-mode)
-
 (global-set-key (kbd "M-g") #'god-local-mode)
+;; backup toggle keys
+(global-set-key (kbd "<f1>") #'god-local-mode)
+(global-set-key (kbd "C-<f1>") #'god-local-mode)
 
 
 
